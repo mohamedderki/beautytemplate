@@ -182,7 +182,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 26px;
     line-height: 0px;
     font-weight: 700;
     text-transform: uppercase;
@@ -858,8 +858,12 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
-}
 
+}
+.team .container .row{
+    display: flex;
+    justify-content: center;
+}
 .team .team-item {
     position: relative;
     margin-bottom: 30px;
@@ -867,17 +871,14 @@ a:focus {
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, .07);
 }
-
 .team .team-img {
     position: relative;
     overflow: hidden;
 }
-
 .team .team-img img {
     position: relative;
     width: 100%;
 }
-
 .team .team-social {
     position: absolute;
     width: 100%;
@@ -889,7 +890,6 @@ a:focus {
     justify-content: center;
     transition: .5s;
 }
-
 .team .team-social a {
     position: relative;
     margin: 0 3px;
@@ -905,17 +905,13 @@ a:focus {
     background: var(--black-color);
     opacity: 0;
 }
-
 .team .team-social a:hover {
     color: var(--black-color);
     background: var(--main-color);
 }
-
-
 .team .team-item:hover .team-social {
     background: rgba(256, 256, 256, .5);
 }
-
 .team .team-item:hover .team-social a:first-child {
     opacity: 1;
     margin-top: 0;
@@ -1209,6 +1205,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
+    padding-bottom: 45px;
     background: #000000;
 }
 
