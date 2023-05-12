@@ -860,6 +860,10 @@ a:focus {
     padding: 45px 0 15px 0;
 
 }
+.row{
+    display: flex;
+    justify-content: center;
+}
 .team .container .row{
     display: flex;
     justify-content: center;
@@ -1289,34 +1293,6 @@ a:focus {
     color: var(--main-color);
 }
 
-.footer .copyright {
-    margin-top: 60px;
-    padding: 0 30px;
-}
-
-.footer .copyright .row {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
-}
-
-.footer .copyright p {
-    margin: 0;
-    color: #ffffff;
-}
-
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
-.footer .copyright p a {
-    color: #ffffff;
-    font-weight: 600;
-}
-
-.footer .copyright p a:hover {
-    color: var(--main-color);
-}
 
 @media (max-width: 767.98px) {
     .footer .copyright p,
